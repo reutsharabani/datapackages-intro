@@ -1,0 +1,20 @@
+youtube-first-page:
+  title: first page of youtube
+  description: scrapes video metadata from the first page of youtube
+  pipeline:
+    - run: add_metadata
+      parameters:
+        name: youtube-first-page
+        title: Youtube first page
+        homepage: https://www.youtube.com
+    - run: youtube
+    - run: set_types
+      parameters:
+        types:
+          title:
+            type: string
+          duration:
+            type: time
+    - run: dump.to_path
+      parameters:
+        out-path: output
