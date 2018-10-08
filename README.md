@@ -13,8 +13,9 @@ Clone the repository
 git clone https://github.com/reutsharabani/datapackages-intro.git
 ```
 
-Install dependencies
+Change directory to the project directory and install dependencies
 ```sh
+cd datapackages-intro
 pip install -r requirements.txt # or `make install-dependencies`
 ```
 
