@@ -1,3 +1,5 @@
 datapackage-pipelines
+# latest versions break on mac
+cchardet==1.0.0
 requests
 beautifulsoup4
