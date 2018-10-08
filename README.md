@@ -27,6 +27,7 @@ dpp run ./intro/pipelines/youtube-first-page
 And you should get output similar to this:
 
 > INFO    :RESULTS:
+
 > INFO    :SUCCESS: ./intro/pipelines/youtube-first-page {'bytes': 8025, 'count_of_rows': 101, 'dataset_name': 'youtube-first-page', 'hash': '07b6eb584d70905e8a1412c541b56258'}
 
 If you encountered any problems its best to report to the datapackage-pipelines [issue tracking](https://github.com/frictionlessdata/datapackage-pipelines/issues), but if it is a problem with this repository please open an issue/PR here.
